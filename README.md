@@ -6,12 +6,14 @@ Single File script for adding files on staging area in git and commiting and the
 * Add this file to .gitignore so as to prevent it from getting pushed along with your project by writing `makefile` in .gitignore.
 * Now open this file and in it's structure that is
 <br>
+
 ```
 git:
 	git add .
 	git commit -m "$m"
 	git push -u origin master
 ```
+
 **Here check your branch name and replace `master` with it**.
 **Note : This will add add files to staging area.**
 
